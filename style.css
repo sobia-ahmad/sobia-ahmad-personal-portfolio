@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@500&family=Lato:wght@300&family=Staatliches&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    /* height: 500px; */
+    background-color:rgb(0, 0, 0);
+    border: solid black 1px;
+
+}
+
+.top-section {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Staatliches', cursive;
+    height: 100vh;
+    padding: 50px;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255);
+    font-size: 90px;
+}
+
+.sa-logo {
+    max-height: 50px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.top-section-name {
+    margin: 0;
+    font-size: 90px;
+    color:rgb(46, 150, 187);
+    font-weight: 900;
+}
+
+.top-section-title {
+    margin: 0;
+    font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.top-section-details {
+    cursor: pointer;
+    margin-left: 70px;
+    margin-bottom: 250px;
+}
+
+.top-section-container {
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+/* li {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-style: bolder;
+
+}
+
+li:hover {
+    color: rgb(46, 150, 187);
+    cursor: pointer;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(46, 150, 187);
+    border-bottom-width: 3px; */
+
+
+/* ul {
+    list-style-type: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    font-size: 25px;
+} */
+/* 
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-transform: none;
+} */
+
+/* .menu-links {
+    color:rgb(46, 150, 187);
+    text-decoration: none;
+} */
+
+ .main-buttons {
+    text-decoration: none;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Staatliches', cursive;
+    border: none;
+    width: 120px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: rgb(46, 150, 187);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+button:hover {
+    border: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.button-links {
+    text-decoration: none;
+    color:rgb(252, 252, 252);
+}
+    
+button:hover {
+    color:rgb(0, 0, 0);
+    
+
+}
+.button-links:hover {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+
+     
+}
+
+button:active {
+    color: rgba(255, 255, 255);
+    background-color: rgb(34, 34, 34);
+}
+
+button:active:hover {
+    color: rgba(255, 255, 255);
+    text-decoration: rgb(46, 150, 187);
+    background-color: rgb(34, 34, 34);
+}
+
+/* 
+a:visited { text-decoration: none; color:red; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black } */
+/* Find out how to get rid of the purple coloured link when clicked as it's not working*/
+
+
+
+hr {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.profile-dp {
+    margin-left: 70px;
+    margin-bottom: 250px;
+    justify-content: space-between; 
+}
+
+.social-icons {
+    color: rgba(255, 255, 255);
+    background-color: none;
+    margin-bottom: 300px;
+    padding-right: 40px;
+    font-size: 30px;
+}
+
+
+.social-icons:active {
+    color: rgb(255, 255, 255);
+}
+
+.fa-github, .fa-twitter, .fa-file {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+.fa-github:hover, .fa-twitter:hover, .fa-file:hover {
+    color:rgb(46, 150, 187);
+    cursor: pointer;
+
+    
+}
+
+.fa-github:active, .fa-twitter:active, .fa-file:active {
+    color: rgba(255, 255, 255);
+}
+
+.branch-container-main {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: rgba(0, 0, 0);
+    color: rgba(255, 255, 255);
+}
+.subheading-titles {
+    align-items: center;
+    margin-left: 200px;
+    color: rgb(46, 150, 187);
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    cursor: pointer;
+}
+
+.subheading-portfolio {
+    margin-left: -20px
+}
+
+.subheading-contact {
+    margin-left: -20px
+}
+.description {
+    font-size: 22px;
+    text-align: left;
+}
+
+.dp-container {
+    align-items: center;
+    display: flex;
+}
+
+.dp {
+    position: relative;
+}
+
+.dp-container {
+    align-items: center;
+    display: flex;
+}
+
+.space-img {
+    margin: 10px;
+    border-radius: 40px;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.branch-container-portfolio {
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 255, 255);
+    padding: 100px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.portfolio-boxes {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Staatliches', cursive;
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+
+.portfolio-item {
+    margin: 10px;
+    height: 500px;
+    width: 300px;
+    box-shadow: 0px 0px 3px 7px rgb(46, 150, 187);
+}
+
+.project-image-title {
+    color: rgb(46, 150, 187);
+    text-align: center;
+    font-size: 40px;
+}
+
+.project-image-title:hover {
+    color: rgb(15, 57, 72);
+
+}
+
+.project-image-description {
+    color: rgba(255, 255, 255);
+    padding: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+a.project-url:hover {
+    color: rgb(34, 34, 34);
+}
+.project-url {
+    color: rgb(46, 150, 187);
+    text-decoration: none;
+
+}
+
+.project-image {
+    width: 300px;
+    margin-top: 25px;
+}
+
+/* Contact form */
+
+
+.contact-area {
+    height: auto;
+	width: 600px;
+	margin-top: 25px;
+    color: white;
+}
+
+.contact-area input, .contact-area textarea {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-family: 'Staatliches', cursive;
+    background-color: rgb(46, 150, 187);
+    padding: 5px;
+	width: 471px;
+    align-items: center;
+	font-size: 25px;
+	margin: 0px 0px 10px 0px;
+	/* border: 2px solid rgb(255, 255, 255); */
+}
+
+
+
+.contact-area textarea {
+	height: 90px;
+}
+
+form {
+    margin: 50px 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;    
+    display: inline-block;
+    align-items: center;
+}
+
+.input-text {
+    color:rgb(109, 16, 16);
+
+}
+
+.submit-button {
+	text-decoration: none;
+    
+    border: none;
+    height: 50px;
+    background-color: rgb(46, 150, 187);
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  
+
+
+
+
+
+
+/* navbar regular css start */
+
+
+  .site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a.site-logo {
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .site-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  .site-navbar ul li a {
+    color: rgb(46, 150, 187);
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .site-navbar ul li a:hover {
+    background-color: rgb(0, 0, 0);
+  }
+
+li {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-style: bolder;
+
+  }
+  /* navbar regular css end */
+  
+  
+  /* nav-toggler css start */
+  .nav-toggler {
+      border: none;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 42px;
+    display: none;
+  }
+  .nav-toggler span, 
+  .nav-toggler span:before, 
+  .nav-toggler span:after {
+    width: 28px;
+    height: 3px;
+    background-color: rgb(46, 150, 187);
+    display: block;
+    transition: .3s;
+  }
+  .nav-toggler span:before {
+    content: '';
+    transform: translateY(-9px);
+
+  }
+  .nav-toggler span:after {
+    content: '';
+    transform: translateY(6px);
+  }
+  .nav-toggler.toggler-open span {
+    background-color: transparent;
+
+  }
+  .nav-toggler.toggler-open span:before {
+    transform: translateY(0px) rotate(45deg);
+    
+
+  }
+  .nav-toggler.toggler-open span:after {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+  /* nav-toggler css start */
+  
+  
+  /* intro-area css start */
+  .intro-area {
+    height: calc(100vh - 61px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgb(46, 150, 187);
+  }
+  .intro-area h2 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    /* margin-bottom: 25px; */
+  }
+  .intro-area p {
+    font-size: 18px;
+  }
+  /* intro-area css end */
+  
+  
+  /* mobile breakpoint start */
+  @media screen and (max-width: 767px) {
+    .container {
+      max-width: 720px;
+    }
+    /* navbar css for mobile start */
+    .nav-toggler{
+      display: block;
+    }
+    .site-navbar {
+      min-height: 60px;
+    }
+    .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 60px);
+      left: 0;
+      top: 60px;
+      flex-direction: column;
+      align-items: center;
+      border-top: 1px solid rgb(46, 150, 187);
+      background-color: rgba(0,0,0,.75);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    /* .site-navbar ul li a {
+      padding: 25px;
+    } */
+    .site-navbar ul li a:hover {
+      background-color: rgba(0, 0, 0);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }
+    .intro-area h2 {
+      font-size: 36px;
+    }  
+   
+    footer {
+        height: 500px;
+        background-color: rgb(87, 87, 87);
+    }
