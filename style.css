@@ -8,7 +8,6 @@
 }
 
 section {
-    /* height: 500px; */
     background-color:rgb(0, 0, 0);
     border: solid black 1px;
 
@@ -118,8 +117,6 @@ a:focus { text-decoration: none; color:yellow; }
 a:hover, a:active { text-decoration: none; color:black } */
 /* Find out how to get rid of the purple coloured link when clicked as it's not working*/
 
-
-
 hr {
     margin-right: 10px;
     margin-left: 20px;
@@ -154,8 +151,6 @@ hr {
 .fa-github:hover, .fa-twitter:hover, .fa-file:hover {
     color:rgb(46, 150, 187);
     cursor: pointer;
-
-    
 }
 
 .fa-github:active, .fa-twitter:active, .fa-file:active {
@@ -206,13 +201,6 @@ hr {
     display: flex;
 }
 
-.space-img {
-    margin: 10px;
-    border-radius: 40px;
-    justify-content: space-around;
-    text-align: left;
-}
-
 .branch-container-portfolio {
     font-family: 'Lato', sans-serif;
     color: rgba(255, 255, 255);
@@ -232,7 +220,6 @@ hr {
     cursor: pointer;
 }
 
-
 .portfolio-item {
     margin: 10px;
     height: 500px;
@@ -248,7 +235,6 @@ hr {
 
 .project-image-title:hover {
     color: rgb(15, 57, 72);
-
 }
 
 .project-image-description {
@@ -259,14 +245,12 @@ hr {
     font-size: 25px;
 }
 
-
 a.project-url:hover {
     color: rgb(34, 34, 34);
 }
 .project-url {
     color: rgb(46, 150, 187);
     text-decoration: none;
-
 }
 
 .project-image {
@@ -275,8 +259,6 @@ a.project-url:hover {
 }
 
 /* Contact form */
-
-
 .contact-area {
     height: auto;
 	width: 600px;
@@ -327,14 +309,7 @@ form {
     font-size: 20px;
   }
   
-  
-
-
-
-
-
-
-/* navbar regular css start */
+ /* Navbar full view */
 
 
   .site-navbar {
@@ -371,20 +346,18 @@ li {
     font-weight: 900;
     letter-spacing: 1px;
     font-style: bolder;
-
   }
-  /* navbar regular css end */
   
-  
-  /* nav-toggler css start */
+  /* Hamburger toggle menu for mobile */
   .nav-toggler {
-      border: none;
+    border: none;
     padding: 5px;
     background-color: transparent;
     cursor: pointer;
     height: 42px;
     display: none;
   }
+
   .nav-toggler span, 
   .nav-toggler span:before, 
   .nav-toggler span:after {
@@ -394,31 +367,27 @@ li {
     display: block;
     transition: .3s;
   }
+
   .nav-toggler span:before {
     content: '';
     transform: translateY(-9px);
-
   }
+
   .nav-toggler span:after {
     content: '';
     transform: translateY(6px);
   }
+
   .nav-toggler.toggler-open span {
     background-color: transparent;
-
   }
   .nav-toggler.toggler-open span:before {
     transform: translateY(0px) rotate(45deg);
-    
-
   }
   .nav-toggler.toggler-open span:after {
     transform: translateY(-3px) rotate(-45deg);
   }
-  /* nav-toggler css start */
-  
-  
-  /* intro-area css start */
+ 
   .intro-area {
     color: rgb(46, 150, 187);
     height: calc(80vh - 41px);
@@ -435,19 +404,20 @@ li {
     font-size: 18px;
   }
   
-  
-  /* mobile breakpoint start */
+  /* media queries */
   @media screen and (max-width: 767px) {
     .container {
       max-width: 720px;
     }
-    /* navbar css for mobile start */
+	  
     .nav-toggler{
       display: block;
     }
+	  
     .site-navbar {
       min-height: 60px;
     }
+	  
     .site-navbar ul {
       position: absolute;
       width: 100%;
@@ -462,6 +432,7 @@ li {
       overflow: hidden;
       transition: 0.3s;
     }
+	  
     .site-navbar ul li {
       width: 100%;
       text-align: center;
@@ -470,10 +441,12 @@ li {
     .site-navbar ul li a:hover {
       background-color: rgba(0, 0, 0);
     }
+
     .site-navbar ul.open {
       max-height: 100vh;
       overflow: visible;
     }
+
     .intro-area h2 {
       font-size: 36px;
     }  
