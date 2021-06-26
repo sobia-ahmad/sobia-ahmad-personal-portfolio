@@ -59,42 +59,6 @@ section {
     display: flex;
 }
 
-/* li {
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    font-style: bolder;
-
-}
-
-li:hover {
-    color: rgb(46, 150, 187);
-    cursor: pointer;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgb(46, 150, 187);
-    border-bottom-width: 3px; */
-
-
-/* ul {
-    list-style-type: none;
-    display: flex;
-    width: 400px;
-    justify-content: space-around;
-    font-size: 25px;
-} */
-/* 
-nav {
-    display: flex;
-    justify-content: space-between;
-    text-transform: none;
-} */
-
-/* .menu-links {
-    color:rgb(46, 150, 187);
-    text-decoration: none;
-} */
-
  .main-buttons {
     text-decoration: none;
     font-family: 'Big Shoulders Stencil Display', cursive;
@@ -398,7 +362,7 @@ form {
     text-transform: uppercase;
   }
   .site-navbar ul li a:hover {
-    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
 li {
@@ -456,22 +420,20 @@ li {
   
   /* intro-area css start */
   .intro-area {
-    height: calc(100vh - 61px);
+    color: rgb(46, 150, 187);
+    height: calc(80vh - 41px);
     display: flex;
     align-items: center;
     text-align: center;
-    color: rgb(46, 150, 187);
   }
   .intro-area h2 {
     font-size: 50px;
     font-weight: 300;
     line-height: 50px;
-    /* margin-bottom: 25px; */
   }
   .intro-area p {
     font-size: 18px;
   }
-  /* intro-area css end */
   
   
   /* mobile breakpoint start */
@@ -498,15 +460,13 @@ li {
       background-color: rgba(0,0,0,.75);
       max-height: 0;
       overflow: hidden;
-      transition: .3s;
+      transition: 0.3s;
     }
     .site-navbar ul li {
       width: 100%;
       text-align: center;
     }
-    /* .site-navbar ul li a {
-      padding: 25px;
-    } */
+}
     .site-navbar ul li a:hover {
       background-color: rgba(0, 0, 0);
     }
