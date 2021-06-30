@@ -1,7 +1,7 @@
 // define all UI variable
 const navToggler = document.querySelector('.nav-toggler');
-const navMenu = document.querySelector('.site-navbar ul');
-const navLinks = document.querySelectorAll('.site-navbar a');
+const navMenu = document.querySelector('.main-navbar ul');
+const navLinks = document.querySelectorAll('.main-navbar a');
 
 // load all event listners
 allEventListners();
