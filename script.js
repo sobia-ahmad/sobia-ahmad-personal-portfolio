@@ -1,16 +1,15 @@
-// define all UI variable
+// Grabbing classes
 const navToggler = document.querySelector('.nav-toggler');
 const navMenu = document.querySelector('.main-navbar ul');
 const navLinks = document.querySelectorAll('.main-navbar a');
 
-// load all event listners
-allEventListners();
+allEventListeners();
 
-// functions of all event listners
-function allEventListners() {
-  // toggler icon click event
+// Functions of all event listeners
+function allEventListeners() {
+  // Toggle event
   navToggler.addEventListener('click', togglerClick);
-  // nav links click event
+  // Nav link event
   navLinks.forEach( elem => elem.addEventListener('click', navLinkClick));
 }
 
