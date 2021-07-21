@@ -31,7 +31,7 @@ section {
 }
 
 .top-section-name {
-  margin: 0;
+  margin: 10px;
   font-size: 90px;
   color:rgb(46, 150, 187);
   font-weight: 900;
@@ -140,8 +140,7 @@ hr {
 .social-icons {
   color: rgba(255, 255, 255);
   background-color: none;
-  margin-bottom: 300px;
-  padding-right: 5px;
+  margin: 100px;
   font-size: 30px;
 }
 
@@ -265,6 +264,19 @@ a.project-url:hover {
   width: 300px;
   margin-top: 25px;
 }
+/* Contact */
+
+.social-icons-contact {
+  color: rgba(255, 255, 255);
+  background-color: none;
+  font-size: 30px;
+}
+
+.social-icons-contact:active {
+  color: rgb(46, 150, 187);
+}
+
+
 
 /* Contact form */
 .contact-area {
@@ -274,7 +286,7 @@ a.project-url:hover {
   color: white;
 }
 
-.contact-area input, .contact-area textarea {
+.contact-area, .contact-area {
   font-family: 'Big Shoulders Stencil Display', cursive;
   font-family: 'Staatliches', cursive;
   background-color: rgb(46, 150, 187);
@@ -283,47 +295,8 @@ a.project-url:hover {
   align-items: center;
 	font-size: 25px;
 	margin: 0px 0px 10px 0px;
-	/* border: 2px solid rgb(255, 255, 255); */
 }
 
-.contact-area textarea {
-	height: 40px;
-}
-
-form {
-  display: inline-block;
-  margin: 10px 0px;
-  padding: 0px;
-  text-align: center;
-  align-items: center;
-}
-
-input, textarea {
-  color: rgb(255, 255, 255);
-  padding: 200px;
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-  cursor: pointer;
-  max-width: 400px;
-  align-content: center;
-}
-
-.submit-button {
-  text-decoration: none;
-  border: none;
-  height: 50px;
-  cursor: pointer;
-  text-align: center;
-  font-size: 20px;
-}
-
-::-webkit-input-placeholder { 
-  color: rgb(114, 201, 216);
-}
-::-moz-placeholder { 
-  color: rgb(114, 201, 216);
-}
 
 .branch-container-contact {
   font-family: 'Lato', sans-serif;
@@ -478,6 +451,7 @@ li {
 
 .intro-area h2 {
   font-size: 36px;
+  margin-left: 30px;
 }  
    
 footer {
@@ -489,3 +463,8 @@ footer {
   background-color: rgba(0, 0, 0);
   cursor: pointer;
 }
+
+/* .intro-name {
+  margin: -20px;
+  padding: 50px;
+} */
